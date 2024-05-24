@@ -1,0 +1,51 @@
+
+
+
+24 Hour Digital Clock (Counters, Decoders) will be made with logic gates and boolean algebra 
+program logisim evolution
+In this project, a digital clock that works in 24-hour format was designed. The design of the clock is modular 
+using counters, D flip-flops, multiplexers, splitters and logic gates. 
+has been carried out. A 7-segment hex digital display is used for the digital display of the time.
+Components Used
+
+ Mode 10 Counter (0-9): To count units of minutes and seconds.
+ Mode 6 Counter (0-5): To count minutes and seconds tens digit.
+ Mode 3 Counter (0-2): To count ten digits of the hour.
+ Mode 24 Counter (0-23): Multiplexer and logic counter to ensure the general operation of the clock. 
+It was designed using doors.
+ D Flip-Flops: To store data and enable counters to operate.
+ Multiplexer: To select and route various inputs in the Mode 24 counter.
+ Splitters: To split and distribute signals between modules.
+ Logic Gates (AND, OR, NOT, etc.): Correct control of counters and other components. 
+was used to make it work.
+ Hex Digital Display: To display the time digitally.
+ Clock: To synchronize the entire system.
+System Design and Operation
+ Seconds Counter: Seconds are counted using the Mode 10 and Mode 6 counters. of seconds 
+The ones digit is managed by Mode 10 counter, and the tens digit is managed by Mode 6 counter.
+ Minute Counter: Minute units and tens digits are also displayed with Mode 10 and Mode 6 counters. 
+sort of.
+ Hour Counter: Hours are managed by the Mode 24 counter. Multiplexer in the design of this meter 
+and logic gates were used. The units digit of the clock is Mode 10, and the tens digit is Mode 3. 
+It is counted with the counter.
+ D Flip-Flops: Keeping the data at the output of each counter and transferring it to the next clock signal. 
+It is used to preserve.
+ Multiplexer: For selection and routing of different inputs in the Mode 24 counter 
+used.
+ Splitters: To divide signals and direct them to appropriate meters and displays. 
+used.
+ Logic Gates: Resetting counters, controlling overflow situations and other control 
+used for operations.
+
+ Clock Signal: All counters and D flip-flops are synchronized with the main clock signal. 
+This clock signal serves the basic timing function to count seconds.
+Display and Usage
+Hex digital display is used to visually display counted values. Each segment, 
+is updated based on the output of the relevant mode counter, ensuring accurate hours, minutes and 
+seconds information is displayed on the digital screen.
+Conclusion
+This project includes modular counters, D flip-flops, multiplexers, splitters and logic gates. 
+How to design a digital clock that works in 24-hour format using 
+shows. Accurate time measurement by synchronizing the clock with a reliable clock signal 
+and is presented visually to the user with a hex digital display.
+
